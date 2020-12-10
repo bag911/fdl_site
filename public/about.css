@@ -1,0 +1,36 @@
+@font-face {
+    font-family: ITC;
+    src: url(fonts/ITCAvantGardeStd-Bk.ttf);
+}
+@font-face {
+    font-family: Major;
+    src: url(fonts/MajorMonoDisplay-Regular.ttf);
+}
+
+.cloth_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_container{
+    margin-top: 120px;
+    width: 80vw;
+    height: 400px;
+    border: 2px double #fff;
+    color: #fff;
+}
+
+.about_title{
+    font-size: 28px !important;
+    font-family: ITC;
+    
+}
+
+.about_container p{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 18px;
+    font-family: ITC;
+    font-size: 14px;
+}

@@ -1,0 +1,493 @@
+@font-face {
+    font-family: ITC;
+    src: url(fonts/ITCAvantGardeStd-Bk.ttf);
+}
+@font-face {
+    font-family: Major;
+    src: url(fonts/MajorMonoDisplay-Regular.ttf);
+}
+
+/*==========================================================================*/
+a:hover{
+    text-decoration: none !important;
+}
+
+
+/*==========================================================================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+section{
+    z-index: 1;
+}
+
+/*==========================================================================*/
+
+.container_head{
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container{
+    max-width: 1425px;
+    margin: 0 auto;
+}
+
+
+/*==========================================================================*/
+
+.background{
+    width: 100%;
+    height: 970px;
+    background-image: url(img/city.png);
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+
+body{
+    background-color: #000000 !important;
+
+}
+
+
+/*==========================================================================*/
+
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+}
+
+
+  
+  /* Page content */
+  .content {
+    z-index: 4;
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+    z-index: 4;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+    z-index: 4;
+  }
+
+
+
+.inner_header{
+    height: 100%;
+    width: 33.2%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.navigation{
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.navigation li{
+    color: #fff;
+    height: 100%;
+    margin: 0px;
+    min-width: 50px;
+    font-size: 14px;
+    font-family: ITC;
+
+}
+
+.logo{
+    margin-top: 30px;
+    width: 131px;
+    height: 131px;
+    z-index: 5;
+}
+
+/*==========================================================================*/
+
+.tittle{
+    font-family: ITC;
+    font-size: 203px;
+    position: absolute;
+    top:200px;
+
+    color: #FFB800;
+}
+
+.inst{
+    position: absolute;
+    top:450px;
+    padding-top: 0px;
+    margin-left: 0.7%;
+    font-family: ITC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 77px;
+
+    color: #FFFFFF;
+}
+
+
+/*==========================================================================*/
+
+.container_shop{
+    max-width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.shop_list{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 14px;
+}
+
+.shop_list li{
+    color: #FFFFFF;
+    font-family: Major;
+    margin: 0px 30px 0px;
+
+}
+
+/*==========================================================================*/
+
+.infocnt{
+    padding: 1px;
+}
+
+.container_info{
+
+    max-width: 950px;
+    margin: 150px auto;
+}
+
+.info_pos{
+    display: flex;
+    top:100px;
+}
+
+.text_info{
+    margin-top: 150px;
+}
+
+.title_info{
+    font-family: ITC;
+    font-size: 54px;
+
+
+    color: #FFFFFF;
+}
+
+.paragraph_info{
+    font-family: ITC;
+    font-size: 18px;
+
+
+    color: #CDCDCD;
+}
+
+
+.container_info2{
+
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+/*==========================================================================*/
+
+.background_2{
+    margin-top: 221px;
+    background-image: url("img/bg_material.png");
+    height: 846px;
+}
+
+.pos{
+    padding-top: 253px;
+}
+
+.block{
+    background-color: #000000;
+    width:505px;
+    height:505px;
+}
+
+.title_material{
+    font-family: ITC;
+    font-size: 54px;
+    margin-bottom: 27px;
+    padding-left: 21px;
+    color: #FFFFFF;
+}
+
+.paragraph_material{
+    width: 505px;
+    padding-left: 21px;
+    font-family: ITC;
+    font-size: 18px;
+
+
+    color: #CDCDCD;
+}
+
+.grid{
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.grid-item {
+    width: 223px;
+    height: 227px;
+    float: left;
+    background: #ffffff;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.grid-item--height1 { height: 255px; }
+.grid-item--height2 { height: 319px; }
+.grid-item--height3 { height: 334px; }
+.grid-item--height4 { height: 348px; }
+.grid-item--height5 { height: 376px; }
+.grid-item--height6 { height: 463px; }
+
+
+/*==========================================================================*/
+
+.side_text{
+    position: absolute;
+    left: 90vw;
+    top: 2394px;
+    font-family: Major;
+    transform: rotate(-90deg);
+    color: #FFB800;
+}
+
+.shop_list_imgs img{
+    margin-left: 105px;
+}
+
+
+.check{
+    overflow: hidden;
+    z-index: 0;
+    color:#fff;
+    border: 1px solid #fff;
+    width:500px;
+    height:843px;
+    position: absolute;
+    top:50px;
+    right: 100px;
+    font-family: ITC;
+    font-size: 24px;
+    background-color: #000;
+}
+
+.check .name{
+    margin-top: 15px;
+    font-size: 24px;
+    width: 90%;
+    line-height: 30px;
+}
+
+.check_container{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.first_line{
+    margin-top: 25px;
+}
+
+.result{
+    margin-top: 15px;
+    display: flex;
+    line-height: 30px;
+}
+
+.right_side_cost{
+    align-items: flex-end;
+
+}
+
+.right_side_cost li{
+    float:right;
+}
+
+.xxx{
+    display: flex;
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.xxx_{
+    display: flex;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.nalog{
+    margin-top: 25px;
+    display: flex;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+
+.qr_center{
+    margin: 0 auto;
+    width: 170px;
+}
+
+.qr{
+    margin-top: 57px;
+}
+
+.site_link1{
+    margin-top: 0px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.site_link2{
+    margin-top:0px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+button {
+    background-color: #FFB800; /* Green */
+    border: none;
+    color: black;
+    padding: 12px 62px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    outline: none;
+}
+
+button:focus{
+    outline: none;
+    border: none;
+}
+
+
+.flex_site_button{
+    display: flex;
+    margin-top: 48px;
+    align-items: center;
+}
+
+
+
+/*========================================================================================*/
+
+.form_radio_btn {
+	display: inline-block;
+	margin-right: 10px;
+}
+.form_radio_btn input[type=radio] {
+	display: none;
+}
+.form_radio_btn label {
+	display: inline-block;
+	cursor: pointer;
+	padding: 10px 12px;
+	border: 1px solid #fff;
+	user-select: none;
+}
+ 
+/* Checked */
+.form_radio_btn input[type=radio]:checked + label {
+    border-color: #FFB800;
+}
+ 
+/* Hover */
+.form_radio_btn label:hover {
+	color: #666;
+}
+ 
+/* Disabled */
+.form_radio_btn input[type=radio]:disabled + label {
+	background: #efefef;
+	color: #666;
+}
+
+.flex_radio{
+    display: flex;
+    margin-top: 24px;
+}
+
+
+
+/* ==================================================================================== */
+
+.grid div {
+    overflow: hidden;
+}
+
+.footer{
+    height: 150px;
+    color:#212529;
+    font-family: ITC;
+    font-size: 16px;
+}
+
+.container_footer{
+    max-width: 1425px;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.footer_ul li{
+    display: inline;
+    padding-left: 80px;
+}
+
+.container_head a{
+    z-index: 4;
+}

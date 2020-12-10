@@ -1,0 +1,104 @@
+@font-face {
+    font-family: ITC;
+    src: url(fonts/ITCAvantGardeStd-Bk.ttf);
+}
+@font-face {
+    font-family: Major;
+    src: url(fonts/MajorMonoDisplay-Regular.ttf);
+}
+
+
+
+
+
+.L_menu_block{
+    position: absolute;
+    width: 19%;
+    height: 904px;
+    left: 0px;
+    top: 0px;
+    background: #000;
+    border-radius: 0px 0px 180.5px 0px;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.L_menu_block a{
+    color: #FFB800;
+    font-family: ITC;
+    font-size: 24px;
+}
+
+.L_menu_block a:active{
+    color: #fff;
+}
+
+.firstA{
+    position: absolute;
+    top: 200px;
+}
+
+.firstA p{
+    margin-top: 20px;
+    margin-left: 80px;
+    letter-spacing: 0.9em;
+    text-decoration: underline;
+}
+
+
+.frameDiv{
+    position: absolute;
+    left: 19%;
+}
+
+.frameWindow{
+    width: 81vw;
+    height: 94.4vh;
+}
+
+.cards_table{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.card{
+    width: 25%;
+    background-color: #000;
+    width: 270px;
+    height: 504px;
+    margin: 20px;
+}
+
+.img{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card p{
+    margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: ITC;
+    margin-top: 20px;
+}
+
+.cost{
+    margin-top: 22px !important;
+    font-size: 18px !important;
+    color: #FFB800 !important;
+    width: 75%;
+}
+
+.arrow{
+    color: #FFB800 !important;
+    margin-top: 18px !important;
+}
+
+a:hover{
+    cursor: pointer;
+}
